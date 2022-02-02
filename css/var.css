@@ -2,7 +2,10 @@
     font-size: 16px;
     /* variables */
     --main-text-color: #606060;
-    --left-sidebar-text-color: #f8f8f8;
-    --left-sidebar-bg: #212121;
-    --icon-color: #909090;
+    --topbar-bg-color: #202020;
+    --text-color: #f8f8f8;
+    --left-sidebar-bg-color: #212121;
+    --account-mainnav-bg-color: #181818;
+    --content-bg-color: #0f0f0f;
+    --left-icon-color: #909090;
   }

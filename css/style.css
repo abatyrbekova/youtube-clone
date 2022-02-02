@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url(./var.css);
+@import url(./anchors.css);
 /* my own mods */
 * {
     margin: 0;
@@ -13,6 +14,65 @@ body {
     height: 100vh;
     color: white;
   }
+.container {
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: 6.7vh 23.5vh 18vh 51.7vh;
+    grid-template-areas: 
+    "top-menu top-menu"
+    "left-menu img"
+    "left-menu about"
+    "left-menu main-menu"
+    "left-menu main";
+}
+/* top menu */
+.topbar {
+    grid-area: top-menu;
+    background-color: var(--topbar-bg-color);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.logo-container {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.l-icon {
+
+}
+.myavatar {
+    width: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+.left-sidebar {
+    grid-area: left-menu;
+    background-color:var(--left-sidebar-bg-color);
+}
+.banner {
+    grid-area: img;
+
+}
+.account {
+    grid-area: about;
+    background-color:var(--account-mainnav-bg-color);
+}
+.main-nav {
+    grid-area: main-menu;
+    background-color: var(--account-mainnav-bg-color);
+}
+.content {
+    grid-area: main;
+    background-color: var(--content-bg-color);
+}
+
 /* Left sidebar Menu */
 .left-sidebar {
     display: flex;
@@ -25,6 +85,12 @@ body {
   } */
 .left-sidebar ul li {
     list-style: none;
+  }
+
+.banner-photo {
+    height: 100%;
+    width: 100%;
+    
   }
 
 .avatar {
@@ -55,35 +121,17 @@ p {
 }
 
 /* Menu */
-.top-nav {
+.main-nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
   }
 
-  .top-nav ul {
+.main-nav ul {
     display: flex;
     justify-content: space-around;
   }
-  .top-nav ul li {
+.main-nav ul li {
     display: inline;
     list-style: none;
   }
-
-.item-a {
-    grid-area: account;
-    
-    display: flex;
-}
-.item-b {
-    grid-area: main;
-    background-color: red;  
-}
-.item-c {
-    grid-area: about;
-    background-color: orange;
-}
-.item-d {
-    grid-area: footer;
-    background-color: blue;
-}

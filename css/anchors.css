@@ -8,9 +8,12 @@ a:link {
   font-size: larger;
   transition: 0.5s;
   font-weight: bold;
-  
+  cursor: pointer;
 }
 a:hover {
   color: #030303;
   transform: scale(2);
+}
+.l-icon:hover {
+    
 }
