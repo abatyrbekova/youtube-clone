@@ -1,0 +1,16 @@
+/* Anchor links */
+/* header */
+a,
+a:visited,
+a:link {
+  color: var(--left-sidebar-text-color);
+  text-decoration: none;
+  font-size: larger;
+  transition: 0.5s;
+  font-weight: bold;
+  
+}
+a:hover {
+  color: #030303;
+  transform: scale(2);
+}

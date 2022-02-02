@@ -1,0 +1,8 @@
+:root {
+    font-size: 16px;
+    /* variables */
+    --main-text-color: #606060;
+    --left-sidebar-text-color: #f8f8f8;
+    --left-sidebar-bg: #212121;
+    --icon-color: #909090;
+  }

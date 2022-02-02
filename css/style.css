@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url(./var.css);
+/* my own mods */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    color: white;
+  }
+/* Left sidebar Menu */
+.left-sidebar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+/* .left-sidebar ul {
+    display: flex;
+    justify-content: space-around;
+  } */
+.left-sidebar ul li {
+    list-style: none;
+  }
+
+.avatar {
+    border-radius: 50%;
+    flex-grow: 1;
+    width: 90px;
+}
+.melod-icon {
+    width: 50px;
+}
+p {
+    color: #aaaaaa;
+  }
+.subscribe-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    border: none;
+    background-color: #cc0200;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    flex-grow: 2;
+}
+
+/* Menu */
+.top-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .top-nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  .top-nav ul li {
+    display: inline;
+    list-style: none;
+  }
+
+.item-a {
+    grid-area: account;
+    
+    display: flex;
+}
+.item-b {
+    grid-area: main;
+    background-color: red;  
+}
+.item-c {
+    grid-area: about;
+    background-color: orange;
+}
+.item-d {
+    grid-area: footer;
+    background-color: blue;
+}
