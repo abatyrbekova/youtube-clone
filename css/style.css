@@ -38,8 +38,8 @@ body {
     justify-content:space-between;
     align-items: center;
 }
-.l-icon {
-
+.logo {
+   width: 120px;
 }
 .myavatar {
     width: 50px;
