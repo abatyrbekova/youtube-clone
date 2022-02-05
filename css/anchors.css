@@ -1,16 +1,22 @@
 /* Anchor links */
-/* header */
-a,
-a:visited,
-a:link {
-  color: var(--left-sidebar-text-color);
+/* Top bar */
+a {
+    color: var(--text-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Main nav bar */
+.main-nav ul li a,
+.main-nav ul li a:visited,
+.main-nav ul li a:link {
+  color: var(--main-text-color);
   text-decoration: none;
   font-size: larger;
   transition: 0.5s;
   font-weight: bold;
   cursor: pointer;
 }
-a:hover {
-  color: #030303;
+.main-nav ul li a:hover {
+  color: #e9e9e9;
   transform: scale(2);
 }
