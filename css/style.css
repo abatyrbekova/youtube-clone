@@ -162,25 +162,27 @@ hr {
 .content {
     grid-area: main;
     background-color: var(--content-bg-color);
-    padding: 60px;
+    padding: 50px 70px 0px 70px;
+}
+h4 {
+    margin-left: 40px;
+}
+.uploads {
+    flex-wrap: wrap;
     display: flex;
     justify-content: space-evenly;
-    align-items: stretch;
-}
-.content img {
-    width: 13vw;
-    margin-top: 15px;
+    align-items: center;
 }
 .vid {
     width: 13vw;
 }
-.vid h3 {
-    margin: 5px 0px;
+.vid img {
+    width: 13vw;
+    margin-top: 10px;
 }
 .vid p {
     color: var(--main-text-color);
 }
-
 
 
 
