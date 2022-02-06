@@ -140,15 +140,28 @@ hr {
     text-transform: uppercase;
 }
 
-
-
-
-
-
+/* Main navbar */
 .main-nav {
     grid-area: main-menu;
     background-color: var(--account-mainnav-bg-color);
+    text-transform: uppercase;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
 }
+.main-nav ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+.main-nav ul li {
+    display: inline;
+    list-style: none;
+  }
+
+
+
+
+
 .content {
     grid-area: main;
     background-color: var(--content-bg-color);
@@ -164,18 +177,3 @@ hr {
 
 
 
-/* Menu */
-.main-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-
-.main-nav ul {
-    display: flex;
-    justify-content: space-around;
-  }
-.main-nav ul li {
-    display: inline;
-    list-style: none;
-  }
