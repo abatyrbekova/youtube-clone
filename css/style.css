@@ -89,7 +89,14 @@ hr {
 .left-sidebar ul li {
     list-style: none;
   }
-
+.left-sidebar ul li img {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    /* display: inline;
+    justify-content: center;
+    align-items: center; */
+}
 
 
 
