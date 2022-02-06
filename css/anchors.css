@@ -20,3 +20,6 @@ a {
   color: #e9e9e9;
   transform: scale(2);
 }
+.left-sidebar ul li a:hover {
+    background-color: var(--border-color);
+}

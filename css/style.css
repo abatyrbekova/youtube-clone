@@ -43,20 +43,20 @@ body {
     width: 40rem;
     padding: 6px;
     font-size: 17px;
-    border: 1px #313131 solid;
+    border: 1px var(--border-color) solid;
     background-color: black;
 }
 .topbar .search-container button {
     float: right;
     padding: 6px 25px;
     margin-right: 16px;
-    background: #313131;
+    background: var(--border-color);
     font-size: 17px;
     cursor: pointer;
-    border: 1px #313131 solid;
+    border: 1px var(--border-color) solid;
   }
 .b-icon {
-    color: var(--left-icon-color);
+    color: var(--text-color);
   }
 .mic-icon {
     padding: 9px;
@@ -78,7 +78,7 @@ body {
 }
 hr {
     width: 14vw;
-    border: 0.1px #313131 solid;
+    border: 0.1px var(--border-color) solid;
     margin: 20px;
 }
 .left-sidebar ul li {
@@ -99,20 +99,48 @@ hr {
     align-items: center; */
 }
 
-
-
-
+/* Banner */
 .banner {
     grid-area: img;
-
 }
-.account {
+.banner img {
+    height: 100%;
+    width: 100%;
+}
+
+/* Channel */
+.channel {
     grid-area: about;
-    background-color:var(--account-mainnav-bg-color);
+    background-color: var(--account-mainnav-bg-color);
     display: flex;
-    justify-content:space-between;
+    justify-content: space-around;
     align-items: center;
 }
+/* .channel a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.avatar {
+    border-radius: 50%;
+    width: 90px;
+}
+.channel-info p {
+    color: var(--border-color);
+  }
+.subscribe-btn {
+    padding: 10px 30px;
+    border: none;
+    background-color: #cc0200;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
 
 
 
@@ -132,37 +160,9 @@ hr {
 
 
 
-.banner-photo {
-    height: 100%;
-    width: 100%;
-  }
 
-.avatar {
-    border-radius: 50%;
-    flex-grow: 1;
-    width: 90px;
-}
-.melod-icon {
-    width: 50px;
-}
-p {
-    color: #aaaaaa;
-  }
-.subscribe-btn {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 30px;
-    border: none;
-    background-color: #cc0200;
-    color: white;
-    border-radius: 4px;
-    font-size: 1rem;
-    margin: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-    flex-grow: 2;
-}
+
+
 
 /* Menu */
 .main-nav {
