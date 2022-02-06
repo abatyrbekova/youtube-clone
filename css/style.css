@@ -79,20 +79,21 @@ body {
 hr {
     width: 14vw;
     border: 0.1px #313131 solid;
+    margin: 20px;
 }
-.left-sidebar ul {
-    /* flex-direction: column;
-    display: flex;
-    justify-content: space-around;
-    align-items: stretch; */
-  }
 .left-sidebar ul li {
     list-style: none;
+  }
+.left-sidebar ul li a {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
   }
 .left-sidebar ul li img {
     width: 25px;
     height: 25px;
     border-radius: 50%;
+    margin: 11px 30px 11px 11px;
     /* display: inline;
     justify-content: center;
     align-items: center; */
