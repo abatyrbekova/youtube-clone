@@ -126,7 +126,7 @@ hr {
     width: 90px;
 }
 .channel-info p {
-    color: var(--border-color);
+    color: var(--main-text-color);
   }
 .subscribe-btn {
     padding: 10px 30px;
@@ -162,8 +162,24 @@ hr {
 .content {
     grid-area: main;
     background-color: var(--content-bg-color);
+    padding: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
 }
-
+.content img {
+    width: 13vw;
+    margin-top: 15px;
+}
+.vid {
+    width: 13vw;
+}
+.vid h3 {
+    margin: 5px 0px;
+}
+.vid p {
+    color: var(--main-text-color);
+}
 
 
 
