@@ -158,10 +158,7 @@ hr {
     list-style: none;
   }
 
-
-
-
-
+/* Content */
 .content {
     grid-area: main;
     background-color: var(--content-bg-color);
