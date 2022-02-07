@@ -131,10 +131,12 @@ hr {
 .avatar {
     border-radius: 50%;
     width: 90px;
+    margin-right: 1vw;
 }
 .channel-info {
     display: flex;
     width: 50%;
+    align-items: center;
 }
 .channel-info p {
     color: var(--main-text-color);
