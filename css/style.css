@@ -39,6 +39,12 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+.l-icon {
+    margin: 0vw 0.8vw;
+}
+.personal-account {
+    width: 10vw;
+}
 .search-container input {
     width: 40rem;
     padding: 6px;
@@ -69,6 +75,7 @@ body {
 .myavatar {
     width: 50px;
     border-radius: 50%;
+    margin-right: 00.8vw;
 }
 
 /* Left Sidebar Menu */
@@ -124,6 +131,10 @@ hr {
 .avatar {
     border-radius: 50%;
     width: 90px;
+}
+.channel-info {
+    display: flex;
+    width: 50%;
 }
 .channel-info p {
     color: var(--main-text-color);
