@@ -50,7 +50,7 @@ body {
     padding: 6px;
     font-size: 17px;
     border: 1px var(--border-color) solid;
-    background-color: black;
+    background-color: var(--content-bg-color);
 }
 .topbar .search-container button {
     float: right;
@@ -81,7 +81,7 @@ body {
 /* Left Sidebar Menu */
 .left-sidebar {
     grid-area: left-menu;
-    background-color:var(--left-sidebar-bg-color);
+    background-color: var(--left-sidebar-bg-color);
 }
 hr {
     width: 14vw;
@@ -198,10 +198,34 @@ h4 {
 }
 
 
+/* Light-dark Modes */
 
-
-
-
-
-
-
+.light {
+    background-color: #ffffff;
+    color: black;
+}
+.lightgray1 {
+    background-color: #f9f9f9;
+    color: black;
+}
+.lightgray2 {
+    background-color: #f1f1f1;
+    color: black;
+}
+  
+.dark {
+    background-color: #202020;
+    color: #ffffff;
+}
+.dark2 {
+    background-color: #212121;
+    color: #ffffff;
+}
+.darkgray1 {
+    background-color: #181818;
+    color: #ffffff;
+}
+.darkgray2 {
+    background-color: #0f0f0f;
+    color: #ffffff;
+}
