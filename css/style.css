@@ -200,9 +200,9 @@ h4 {
 
 /* Light-dark Modes */
 
-.light {
-    background-color: #ffffff;
-    color: black;
+.light{
+    background-color: #ffffff !important;
+    color: black !important;
 }
 .lightgray1 {
     background-color: #f9f9f9;
